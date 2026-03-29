@@ -21,6 +21,7 @@ filesets:
 targets:
   default:
     filesets: [rtl]
+    toplevel : [picorv32_wb]
   lint:
     filesets: [rtl]
     default_tool : verilator
